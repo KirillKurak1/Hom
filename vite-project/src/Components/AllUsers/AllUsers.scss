@@ -1,0 +1,27 @@
+.cards_burgers{
+  margin-top: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 92px;
+  margin-left: 40%; 
+  background-color: #FFF;
+
+}
+.btn_1{
+    width: 276px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    gap: 10px;
+    background: #F2F2F3;
+    border: #F2F2F3;
+}
+p{
+    color: #000;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+}

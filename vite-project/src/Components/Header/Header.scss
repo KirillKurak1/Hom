@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@mixin style{
+    font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        font-family: 'Nunito';
+}
+
+.header{
+    background-color: #FFAB08;;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 450px;
+   
+  
+  }
+  .logotype{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 4%;
+  }
+
+.main_block{
+
+    .burge_main_one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+         
+    }
+    .first_part{
+        color: white;
+        @include style;
+        
+        ;
+    }
+    .second_parts{
+        @include style;
+        color: #FF5C00;
+    }
+    .text_burgers{
+        margin-left: 80%;
+        margin-top: -83%;
+        width: 437px;
+    }
+}
